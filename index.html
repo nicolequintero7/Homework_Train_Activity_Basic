@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+
+        <div class="jumbotron jumbotron-fluid" id="jumbo">
+                <div class="container">
+                  <h1 class="display-4">
+                        <a href="https://fontmeme.com/fancy-fonts/"><img src="https://fontmeme.com/permalink/190707/193c8e9add067a09669ad006b1ffd9d5.png" alt="fancy-fonts" border="0"></a>
+                  </h1>
+                  <p class="lead">Choo Choo</p>
+                </div>
+              </div>
+
+
+<br>
+<br>
+<br>
+
+<div class="container">
+        <table class="table">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">Train Name</th>
+                    <th scope="col">Destination</th>
+                    <th scope="col">Frequency</th>
+                    <th scope="col">Next Arrival</th>
+                    <th scope="col">Minutes Away</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
+              
+
+                </tbody>
+              </table>
+
+
+
+
+              <div class="card">
+                    <div class="card-header">
+
+                    User Input
+                    </div>
+                    <div class="card-body">
+
+              <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Train Name</label>
+                      <input type="text" class="form-control" id="trainName" aria-describedby="emailHelp" placeholder="">
+                       </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Destination</label>
+                      <input type="text" class="form-control" id="destination" placeholder="">
+                    </div>
+                               <div class="form-group">
+                            <label for="exampleInputPassword1">First Train Time (HH:MM Military Time)</label>
+                            <input type="text" class="form-control" id="firstTrain" placeholder="">
+                          </div>
+
+                          <div class="form-group">
+                                <label for="exampleInputPassword1">Frequency Minute</label>
+                                <input type="text" class="form-control" id="fMinute" placeholder="">
+                              </div>
+
+                          
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+                  </div>
+                  </div>
+
+
+ <!-- ending container div              -->
+</div>
+
+<script src="javascript.js"></script>
+    
+</body>
+</html>
