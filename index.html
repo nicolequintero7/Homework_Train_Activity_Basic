@@ -7,7 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="css.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase.js"></script>
+ <!-- Firebase Reference -->
+ <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
@@ -27,7 +28,7 @@
 <br>
 
 <div class="container">
-        <table class="table">
+        <table class="table" id="newTable">
                 <thead class="thead-dark">
                   <tr>
                     <th scope="col">Train Name</th>
@@ -93,7 +94,7 @@
                               </div>
 
                           
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary" id="sButton">Submit</button>
                   </form>
                   </div>
                   </div>
